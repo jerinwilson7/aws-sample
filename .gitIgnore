@@ -1,18 +1,13 @@
-# Ignore node_modules
-node_modules
+# Ignore Node.js modules
+node_modules/
 
-# Ignore logs
+# Ignore compiled code
+dist/
+
+# Ignore log files
 *.log
-
-# Ignore dependency directories
-npm-debug.log*
 
 # Ignore environment files
 .env
-# Ignore build output
-/dist
-/build
 
-# Ignore operating system files
-.DS_Store
-Thumbs.db
+uploads/
